@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang=""en" >
+    <head>
+        <title>CSS Notes</title>
+    </head>
+
+    <body style="padding:32px"">
+        <h1>CSS Notes</h1>
+        <p style="padding:16px"><strong><em> Syntax: selector { property: value; }</em></strong></p>
+
+        <h2>Selectors</h2>
+        <ul>
+            <li>Universal:&emsp; *</li>
+            <li>Type: &emsp;&emsp;&emsp;div, p, etc</li>
+            <li>class: &emsp;&emsp;&emsp;.class1</li>
+            <li>id: &emsp;&emsp;&emsp;&emsp; #id1</li>
+        </ul>
+        <ul>
+            <li>Grouping:&emsp;&emsp;&emsp;&emsp;s1, s2</li>
+            <li>Chaining:&emsp;&emsp;&emsp;&emsp;.c1#i1</li>
+            <li>Descendent:&emsp;&emsp;&emsp;.ancestor .contents</li>
+        </ul>
+
+        <h2>Properties</h2>
+        <ul>
+            <li> color: #1100ff; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [rgb(100,0,127), hsl(15, 82%, 56%)]</li>
+            <li>fant-family: "Times New Roman", sans-serif;	&emsp;&emsp;&emsp;["font family name", generic family name]</li>
+            <li>font-size: 22px;</li>
+            <li>font-weight: bold; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[700]</li>
+            <li>text-align: center;</li>
+            <li>img{ height: auto; width: 500px}</li>
+            <li>text-decoration: none;</li>
+        </ul>
+
+        <h3>Box Model</h3>
+        <ul>
+            <li>margin, &emsp;padding(: up-down lft-rt), &emsp;border, &emsp;[height, width, box-sizing:border-box]</li>
+            <li>display: block (div), inline (span), block-inline.</li>
+        </ul>
+
+        <h3>float</h3>
+        <ul>
+            <li>float, clear, overflow</li>
+        </ul>
+
+        <h2>Flexbox</h2>
+        <h3>Flex-container</h3>
+        <ul>
+            <li>display: flex;</li>
+            <li>justify-content: center; &emsp;&emsp;&emsp;&emsp; [center, flex-start, flex-end, space-around, space-between, space-evenly]</li>
+            <li>align-items: center; &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;[center, flex-start, flex-end, stretch, baseline]	[align-content]</li>
+            <li>flex-wrap: wrap; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;[nowrap, wrap, wrap-reverse]</li>
+            <li>flex-direction: column; &emsp;&emsp;&emsp;&emsp;[row (default), column;]	[row-reverse, column-reverse]</li>
+            <li>gap: 8px;</li>
+        </ul>
+        <h3>Flex-items</h3>
+        <ul>
+            <li>order: -1; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [0 (default), 1, -1, etc.]</li>
+            <li>align-self: center; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[center, flex-start, flex-end, stretch, baseline]</li>
+            <li>flex: 1; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [1=1 1 0; initial=0 1 auto; auto=1 1 auto; none=0 0 auto]	[flex-grow flex-shrink flex-basis]</li>
+        </ul>
+    </body>
+</html>
